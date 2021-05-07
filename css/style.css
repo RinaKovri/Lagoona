@@ -1,10 +1,8 @@
-.header {
-    margin: 0;
-    padding: 4px;
-}
-
 .container {
-    padding: ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .logo {
@@ -22,21 +20,35 @@
     margin-left: 800px;
     padding-left: 20px;
     color: darkgoldenrod;
-    background-image: url(../img/arrow.svg); 
+    background-image: url(../img/arrow.svg);
     background-size: 15px;
     background-repeat: no-repeat;
     background-position: left;
 }
 
-.nav {}
+.nav {
+    margin: 0;
+    text-decoration: none;
+}
 
-.nav-list-left {}
+.nav-list-links {
+    display: inline;
+    text-decoration: none;
+}
 
-.nav-list-item {}
-
-.nav-list-right {}
-
-.nav-list-buttons {}
+.nav-list-buttons {
+    display: inline;
+    color: darkgoldenrod;
+    text-decoration: none;
+    width: 80px;
+    height: 50px;
+    padding: 20px;
+    margin-bottom: 150px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid darkgoldenrod;
+    border-radius: 25px;
+}
 
 .offers {}
 
