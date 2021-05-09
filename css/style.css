@@ -1,8 +1,10 @@
 .container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: auto;
+    text-align: left;
+}
+
+.header {
+    display: inline;
 }
 
 .logo {
@@ -27,24 +29,24 @@
 }
 
 .nav {
-    margin: 0;
     text-decoration: none;
 }
 
 .nav-list-links {
-    display: inline;
+    display: inline-block;
+    color: dimgray;
     text-decoration: none;
 }
 
 .nav-list-buttons {
-    display: inline;
+    display: inline-block;
     color: darkgoldenrod;
-    text-decoration: none;
     width: 80px;
     height: 50px;
     padding: 20px;
     margin-bottom: 150px;
     text-align: center;
+    text-decoration: none;
     background-color: white;
     border: 1px solid darkgoldenrod;
     border-radius: 25px;
